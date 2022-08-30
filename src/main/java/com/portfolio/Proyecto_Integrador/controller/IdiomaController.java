@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/idioma")
-@CrossOrigin(origins = "https://pablo-rodriguez-portfolio.web.app/")
+@CrossOrigin(origins = "https://pablo-rodriguez-portfolio.web.app")
 public class IdiomaController {
     @Autowired
     IdiomaService servIdioma;
