@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/acercade")
-@CrossOrigin(origins = "https://pablo-rodriguez-portfolio.web.app")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class AcercaDeController {
     
     @Autowired
