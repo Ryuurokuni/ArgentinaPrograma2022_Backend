@@ -22,7 +22,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/imagenes")
-@CrossOrigin
+@CrossOrigin(origins = "https://pablo-rodriguez-portfolio.web.app/")
 public class ImagenesController {
 
     @Autowired
